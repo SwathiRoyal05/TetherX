@@ -1,4 +1,4 @@
-#Citizen Issue Reporting Backend
+**Citizen Issue Reporting Backend**
 
 A production-ready Flask backend for citizens to report civic issues like potholes, water leaks, and street lights in Hyderabad.
 
