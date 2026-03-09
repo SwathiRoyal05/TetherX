@@ -2,26 +2,26 @@
 
 A production-ready Flask backend for citizens to report civic issues like potholes, water leaks, and street lights in Hyderabad.
 
-## 🚀 **Live Demo**
+## **Live Demo**
 ```
 https://hyderabad-issues.onrender.com           ← Homepage
 https://hyderabad-issues.onrender.com/api/issues ← All complaints
 https://hyderabad-issues.onrender.com/api/issues?status=open ← Urgent issues
 ```
-## 🚀 **Demonstration Video**
+## **Demonstration Video**
 https://drive.google.com/file/d/1u6Jd4Dex37_JUEZH7EKGvzi5fBp6otsF/view?usp=drive_link
 
-## ✨ **Features**
-- ✅ Citizen reporting via mobile apps, WhatsApp, SMS
-- ✅ Categories: Pothole 🛣️, Water Leak 💧, Street Light 💡, Garbage 🗑️
-- ✅ Status tracking: Open → Resolved with timestamps
-- ✅ Filter: `?status=open` or `?category=1`
-- ✅ Production deployed on render.com (free 24/7)
+## **Features**
+- Citizen reporting via mobile apps, WhatsApp, SMS
+- Categories: Pothole, Water Leak, Street Light, Garbage
+- Status tracking: Open → Resolved with timestamps
+- Filter: `?status=open` or `?category=1`
+- Production deployed on render.com (free 24/7)
 
-## 🏗️ **Problem Solved**
+## **Problem Solved**
 Citizens report potholes/water leaks → City workers see organized lists → Issues get fixed faster.
 
-## 📱 **How Citizens Use It**
+## **How Citizens Use It**
 
 ```bash
 # Mobile app sends:
@@ -35,7 +35,7 @@ https://yourapp.onrender.com/api/issues
 curl "https://yourapp.onrender.com/api/issues?status=open"
 ```
 
-## 🛠️ **Quick Start (Local)**
+## **Quick Start (Local)**
 
 ```bash
 # 1. Clone & Install
@@ -52,7 +52,7 @@ curl http://127.0.0.1:5000/api/issues
 
 **Homepage:** `http://127.0.0.1:5000`
 
-## 📂 **File Structure**
+## **File Structure**
 ```
 ├── app.py              # Flask backend + API endpoints
 ├── requirements.txt    # Python packages
@@ -61,7 +61,7 @@ curl http://127.0.0.1:5000/api/issues
 └── README.md          # This file
 ```
 
-## 🔧 **API Endpoints**
+## **API Endpoints**
 
 | Method | URL | Description |
 |--------|-----|-------------|
@@ -70,22 +70,22 @@ curl http://127.0.0.1:5000/api/issues
 | `POST` | `/api/issues` | Report new issue |
 | `PATCH` | `/api/issues/1` | Update status |
 
-## 🏷️ **Categories**
+## **Categories**
 ```
-1 = Pothole 🛣️
-2 = Water Leak 💧
-3 = Street Light 💡
-4 = Garbage 🗑️
+1 = Pothole 
+2 = Water Leak 
+3 = Street Light 
+4 = Garbage 
 ```
 
-## ☁️ **Deploy to Render (Free)**
+## **Deploy to Render (Free)**
 
 1. Fork this repo
 2. [render.com](https://render.com) → New Web Service
 3. Connect GitHub repo
 4. Deploy → **Live in 2 minutes!**
 
-## 📊 **Tech Stack**
+## **Tech Stack**
 ```
 Backend: Python + Flask
 Database: SQLite
@@ -94,7 +94,7 @@ Hosting: Render.com (free)
 API: RESTful JSON
 ```
 
-## 🎥 **Demo Video Structure**
+## **Demo Video Structure**
 ```
 1. CMD: python app.py
 2. Browser: localhost:5000 → Homepage
@@ -102,12 +102,12 @@ API: RESTful JSON
 4. Deploy render.com → Live URL demo
 ```
 
-## 📞 **Real-World Usage**
+## **Real-World Usage**
 - **Citizens:** Mobile apps/WhatsApp/SMS report issues
 - **Workers:** Browser dashboard filters urgent complaints  
 - **Analytics:** Track resolution times by category/ward
 
-## 📄 **License**
+## **License**
 MIT License - Free for commercial use.
 
 ***
