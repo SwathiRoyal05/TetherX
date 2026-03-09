@@ -94,22 +94,10 @@ Hosting: Render.com (free)
 API: RESTful JSON
 ```
 
-## **Demo Video Structure**
-```
-1. CMD: python app.py
-2. Browser: localhost:5000 → Homepage
-3. Click "View All Issues" → 3 potholes shown
-4. Deploy render.com → Live URL demo
-```
-
 ## **Real-World Usage**
 - **Citizens:** Mobile apps/WhatsApp/SMS report issues
 - **Workers:** Browser dashboard filters urgent complaints  
 - **Analytics:** Track resolution times by category/ward
 
-## **License**
-MIT License - Free for commercial use.
-
-***
 
 **Report potholes → Fix streets → Cleaner city!**
